@@ -1,0 +1,155 @@
+.nav {
+    height: 23vh;
+    /* position: relative; */
+    /* background-color: turquoise; */
+    display: flex;
+    
+    justify-content: space-between;
+
+}
+.nav_buttons {
+    height:100%;
+    width: 20vw;
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.connect_container {
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height:100%;
+    width: 20vw;
+}
+
+.please_login {
+    height: 100%;
+    width: 100%;
+    margin-left: 5%;
+    text-align: center;
+    color: #f9e307;
+    text-shadow: 2px 2px #8292fe;
+    font-family: "Century Gothic";
+    font-size: 33px;
+
+}
+
+.title {
+    /* height: 200px; */
+    width: 50%;
+    /* position:absolute; */
+    
+    /* background-color: orange; */
+    background-repeat: no-repeat;
+    position: absolute;
+
+}
+
+.title_container {
+    /* background-color: orange; */
+    display: flex;
+    max-height: 100%;
+    width: 55%;
+    /* flex-direction: row; */
+    justify-content: center;
+    /* position: relative; */
+}
+
+.balance {
+    height: 100%;
+    width: 100%;
+    color: #f9e307;
+    text-shadow: 2px 2px #8292fe;
+    background-color: transparent;
+    border: none;
+    font-family: "Century Gothic";
+    font-size: 40px;
+    cursor: pointer;
+
+}
+
+.connect_button {
+    padding: 3% 3% 3% 3%;
+    margin: auto ;
+    width: 90%;
+    text-align: center;
+    background-image: linear-gradient(#8291fe,#8291fe, #0dcea3, #a75af9);
+    color: #3e3b3c;
+    box-shadow: 4px 4px 4px 1px #125f46;
+    font-family: "Century Gothic";
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+
+
+    
+
+}
+
+
+.connect {
+    right: 0;
+    width: 90%;
+    height: 100%;
+    cursor: pointer;
+    /* background-color: tomato; */
+
+    
+}
+.download {
+    right: 0;
+    width: 15%;
+
+    /* height: 120px; */
+    position: absolute;
+    margin-top: 1%;
+    margin-right: 4%;
+    cursor: pointer;
+    /* background-color: tomato; */
+
+}
+.connected {
+    right: 0;
+    width: 15%;
+
+    /* height: 120px; */
+    position: absolute;
+    margin-top: 3%;
+    margin-right: 4%;
+    cursor: pointer;
+    /* background-color: tomato; */
+
+    
+}
+
+.address {
+    text-shadow: 1px 1px #8292fe;    
+    font-family: "Century Gothic";
+    font-style: italic;
+    font-weight:lighter;
+    color: #f9e307;
+    font-size: 20px;
+
+    position:absolute;
+    text-align: center;
+    width: 20%;
+    right: 0;
+    margin-top: 7%;
+
+}
+.chain_id {
+    position:absolute;
+    color: #f9e307;
+    text-align: center;
+    /* text-shadow: 2px 2px #8292fe; */
+    width: 20%;
+    right:0;
+    margin-top: 10%;
+    /* margin-right: 5%; */
+}
+
+

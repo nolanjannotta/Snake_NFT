@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SnakeLib.sol": "SnakeLib"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 100
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/Base64.sol": {
+			"keccak256": "0x5efa2a2ed44af15fd5bec8c43b45cb26fe6cb68671fea151e6afcfed66ed2672",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e67c6ff6f3f86f892a6dee529390c387a5b46ed43e0c3032c748662de2c8f195",
+				"dweb:/ipfs/QmWrcn5NQhCkS7Mr6A24TvxrjvVRdEshyBE9WBmY1fG7eH"
+			]
+		},
+		"@openzeppelin/contracts/utils/Strings.sol": {
+			"keccak256": "0x32c202bd28995dd20c4347b7c6467a6d3241c74c8ad3edcbb610cd9205916c45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8179c356adb19e70d6b31a1eedc8c5c7f0c00e669e2540f4099e3844c6074d30",
+				"dweb:/ipfs/QmWFbivarEobbqhS1go64ootVuHfVohBseerYy9FTEd1W2"
+			]
+		},
+		"SnakeLib.sol": {
+			"keccak256": "0x206ab066f781e6635ee7505df29937199eb1733511b852eefd886d8a2ad0770d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://24cb6ac9c048cc54d7b4d490973610327f783e77833b1a7dee8672061f6d4a11",
+				"dweb:/ipfs/QmXa1P7z2FbMsNNaGUxRZ7gtg78qRMgtfPWiWHjn74v6VC"
+			]
+		}
+	},
+	"version": 1
+}

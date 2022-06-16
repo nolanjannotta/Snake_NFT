@@ -1,0 +1,456 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "color",
+						"type": "string"
+					}
+				],
+				"name": "OwnerandIdText",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string[2]",
+								"name": "gradient1",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient2",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient3",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient4",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonBackground",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "borderStrip",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screenText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screen",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "ownerText",
+								"type": "string"
+							}
+						],
+						"internalType": "struct CalcLib.ColorScheme",
+						"name": "scheme",
+						"type": "tuple"
+					}
+				],
+				"name": "base64ImageUrl",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string[2]",
+								"name": "gradient1",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient2",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient3",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient4",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonBackground",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "borderStrip",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screenText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screen",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "ownerText",
+								"type": "string"
+							}
+						],
+						"internalType": "struct CalcLib.ColorScheme",
+						"name": "scheme",
+						"type": "tuple"
+					}
+				],
+				"name": "getBackground",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string[2]",
+								"name": "gradient1",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient2",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient3",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient4",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonBackground",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "borderStrip",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screenText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screen",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "ownerText",
+								"type": "string"
+							}
+						],
+						"internalType": "struct CalcLib.ColorScheme",
+						"name": "scheme",
+						"type": "tuple"
+					}
+				],
+				"name": "getGradients",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string[2]",
+								"name": "gradient1",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient2",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient3",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient4",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonBackground",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "borderStrip",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screenText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screen",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "ownerText",
+								"type": "string"
+							}
+						],
+						"internalType": "struct CalcLib.ColorScheme",
+						"name": "scheme",
+						"type": "tuple"
+					}
+				],
+				"name": "getScreenText",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string[2]",
+								"name": "gradient1",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient2",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient3",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string[2]",
+								"name": "gradient4",
+								"type": "string[2]"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonBackground",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "borderStrip",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "buttonText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screenText",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "screen",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "ownerText",
+								"type": "string"
+							}
+						],
+						"internalType": "struct CalcLib.ColorScheme",
+						"name": "scheme",
+						"type": "tuple"
+					}
+				],
+				"name": "getStyle",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CalcLib.sol": "CalcLib"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 100
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/utils/Base64.sol": {
+			"keccak256": "0x5efa2a2ed44af15fd5bec8c43b45cb26fe6cb68671fea151e6afcfed66ed2672",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e67c6ff6f3f86f892a6dee529390c387a5b46ed43e0c3032c748662de2c8f195",
+				"dweb:/ipfs/QmWrcn5NQhCkS7Mr6A24TvxrjvVRdEshyBE9WBmY1fG7eH"
+			]
+		},
+		"@openzeppelin/contracts/utils/Strings.sol": {
+			"keccak256": "0x32c202bd28995dd20c4347b7c6467a6d3241c74c8ad3edcbb610cd9205916c45",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8179c356adb19e70d6b31a1eedc8c5c7f0c00e669e2540f4099e3844c6074d30",
+				"dweb:/ipfs/QmWFbivarEobbqhS1go64ootVuHfVohBseerYy9FTEd1W2"
+			]
+		},
+		"CalcLib.sol": {
+			"keccak256": "0x69caa3dc8a233a13575913afc59359714f7696b0dbd8e4e5d67b0c1da99fd850",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fe7db5c446128dabbe05c4965dd8718b058917ff9f688b3b4293e67638c00ae0",
+				"dweb:/ipfs/QmXoNMHi7hnfoaoCEkYH7fQfv1sYzwwpvk3tyUcKzap8Sb"
+			]
+		}
+	},
+	"version": 1
+}

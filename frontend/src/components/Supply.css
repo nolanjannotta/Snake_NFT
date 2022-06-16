@@ -1,0 +1,21 @@
+.blinker {
+    color: #f9e307;
+    /* background-color: tomato; */
+    text-shadow: 2px 2px #8292fe;
+    margin-top: 0px;
+    width: max-content;
+    
+    text-align: center;
+    font-size: 40px;
+    font-family: "Century Gothic";
+
+
+}
+.supply_contianer {
+    display:flex;
+    justify-content: center;
+    height: min-content;
+    width: 100%;
+}
+
+

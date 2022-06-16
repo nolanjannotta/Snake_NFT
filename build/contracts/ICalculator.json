@@ -1,0 +1,303 @@
+{
+  "contractName": "ICalculator",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "balance",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.7+commit.e28d00a7\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"owner\",\"type\":\"address\"}],\"name\":\"balanceOf\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"balance\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ICalculator.sol\":\"ICalculator\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":100},\"remappings\":[]},\"sources\":{\"project:/contracts/ICalculator.sol\":{\"keccak256\":\"0x21c1cba4ecba10a647ae00a8bac96631aee6a8e3aacad24de08a5dde7c2f64c0\",\"urls\":[\"bzz-raw://d1c3a8e8363689887923a8d8d8ac752b78bfbce5d17b29c2ff914024827580db\",\"dweb:/ipfs/QmV24X8TeopwNM8i6GSTEroaPpKemvHqgadAmi9M3iYAJr\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity 0.8.7;\r\n\r\ninterface ICalculator {\r\n\r\n\r\nfunction balanceOf(address owner) external view returns (uint256 balance);\r\n}",
+  "sourcePath": "C:\\Users\\13018\\Documents\\CODE\\SOLIDITY\\Snake\\contracts\\ICalculator.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/ICalculator.sol",
+    "exportedSymbols": {
+      "ICalculator": [
+        4436
+      ]
+    },
+    "id": 4437,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 4428,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:32"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 4436,
+        "linearizedBaseContracts": [
+          4436
+        ],
+        "name": "ICalculator",
+        "nameLocation": "36:11:32",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "70a08231",
+            "id": 4435,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "balanceOf",
+            "nameLocation": "64:9:32",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4431,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4430,
+                  "mutability": "mutable",
+                  "name": "owner",
+                  "nameLocation": "82:5:32",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4435,
+                  "src": "74:13:32",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 4429,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "74:7:32",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "73:15:32"
+            },
+            "returnParameters": {
+              "id": 4434,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4433,
+                  "mutability": "mutable",
+                  "name": "balance",
+                  "nameLocation": "120:7:32",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4435,
+                  "src": "112:15:32",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 4432,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "112:7:32",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "111:17:32"
+            },
+            "scope": 4436,
+            "src": "55:74:32",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 4437,
+        "src": "26:106:32",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:132:32"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/ICalculator.sol",
+    "exportedSymbols": {
+      "ICalculator": [
+        4436
+      ]
+    },
+    "id": 4437,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 4428,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".7"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:22:32"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 4436,
+        "linearizedBaseContracts": [
+          4436
+        ],
+        "name": "ICalculator",
+        "nameLocation": "36:11:32",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "70a08231",
+            "id": 4435,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "balanceOf",
+            "nameLocation": "64:9:32",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 4431,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4430,
+                  "mutability": "mutable",
+                  "name": "owner",
+                  "nameLocation": "82:5:32",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4435,
+                  "src": "74:13:32",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 4429,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "74:7:32",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "73:15:32"
+            },
+            "returnParameters": {
+              "id": 4434,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4433,
+                  "mutability": "mutable",
+                  "name": "balance",
+                  "nameLocation": "120:7:32",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 4435,
+                  "src": "112:15:32",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 4432,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "112:7:32",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "111:17:32"
+            },
+            "scope": 4436,
+            "src": "55:74:32",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 4437,
+        "src": "26:106:32",
+        "usedErrors": []
+      }
+    ],
+    "src": "0:132:32"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.7+commit.e28d00a7.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.4",
+  "updatedAt": "2022-04-21T16:22:02.430Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

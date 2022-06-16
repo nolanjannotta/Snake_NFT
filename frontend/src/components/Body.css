@@ -1,0 +1,259 @@
+
+.demo_container {
+    display: flex;
+    
+    justify-content: flex-start;
+    /* background-color: #9d7cbd; */
+    height: 100%;
+    /* margin-bottom: 8%; */
+    /* position: relative; */
+    
+    
+    /* gap: 20px; */
+}
+
+.full_screen {
+    
+    margin-left: 0px;
+    height: 25px;
+    
+    /* background: orange; */
+
+}
+
+
+.try_me {
+    font-family: "Century Gothic";
+    /* text-shadow: 1px 1px #b999d8; */
+    font-size: 25px;
+    color: #f9e307;
+    text-shadow: 1.5px 1.5px #8292fe;
+    width: max-content;
+    /* height:100%; */
+    /* margin-top: -50px; */
+    /* margin-left: 50px; */
+    
+    /* background-color: orange; */
+    display:flex;
+    text-align: start;
+    /* flex-direction: column; */
+    /* position: relative; */
+    /* margin-right:200px; */
+}
+
+.demo_box {
+
+    /* margin-left: 40px; */
+    margin-bottom: 2%;
+    /* align-self:baseline; */
+    width: 18vw;
+    height: min-content;
+
+    /* background-color: #fcf803; */
+    /* box-shadow: 4px 4px 4px 1px #9d7cbd; */
+    display:flex;
+    flex-direction: column;
+    text-align: right;
+    
+}
+
+.color1 {
+    width:90%;
+    height:auto;
+    border-radius: 1%;
+    box-shadow: 4px 4px 4px 1px #125f46;
+}
+.demo {
+    width: 100%;
+    box-shadow: 4px 4px 4px 1px #125f46;
+
+}
+
+.color {
+    margin-left: 25px;
+    /* margin-right: 1%; */
+    /* display:flex; */
+    flex-direction: column;
+    align-items:center;
+    
+
+}
+
+.colors {
+    
+    min-height: 50%;
+    
+    /* position:absolute; */
+    /* background-color: #9d7cbd; */
+    /* margin-bottom: 5%; */
+    width: 100%;
+    display: flex;
+    
+}
+
+.color_container {
+    /* background-color: orange; */
+    max-width:70%;
+    height: 100%;
+    margin-left: 5%;
+    /* padding: 0 0 1% 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+    
+}
+
+
+
+.sub_body {
+    /* margin-top: 10%; */
+    /* margin-bottom: 10%; */
+    /* margin-left: 100px; */
+    height: 50%;
+    display:flex;
+    /* margin-bottom: %; */
+    align-items:center;
+    /* margin-top: 3%; */
+
+    justify-content: space-between;
+    
+    /* height: 150px; */
+    width: 100%;
+
+
+}
+
+.description {
+    background-image: linear-gradient(#8291fe,#8291fe, #0dcea3, #a75af9);
+    color: #3e3b3c;
+    box-shadow: 4px 4px 4px 1px #125f46;
+    font-family: "Century Gothic";
+    width: 50%;
+    height:min-content;
+    border-radius: 2px;
+    font-size: 14px;
+    /* line-height: 1.7; */
+    /* margin-left: 100px; */
+    /* margin-top: 10px; */
+    text-align: center;
+    /* justify-content: space-eve; */
+
+}
+
+.mint_image {
+    cursor: pointer;
+    width:90%;
+    /* max-height: min-content; */
+    /* position: absolute; */
+    /* margin-top: 10%; */
+    /* bottom:0; */
+    /* margin-bottom: 50px; */
+}
+.price {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: "Century Gothic";
+    color: #3e3b3c;
+    
+    font-size: 15px;
+    
+}
+
+.price_container {
+    width: 15%;
+    height:auto;
+    text-align: center;
+    align-items: center;
+    background-image: linear-gradient(#8291fe,#8291fe, #0dcea3, #a75af9);
+    box-shadow: 4px 4px 4px 1px #125f46;
+    border-radius: 2px;
+    
+
+    
+}
+
+
+.mint_container {
+    /* margin-left: 70px; */
+    width: 25%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+
+}
+.max_message {
+    /* margin-bottom: 0; */
+    
+    /* padding: 2%; */
+    font-family: "Century Gothic";
+    font-size: 14px;
+    color: #f9e307;
+    text-shadow: 1px 1px #8292fe;
+    /* background-color: turquoise; */
+    min-height:20%;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    /* margin-bottom: 3%; */
+    text-align: center;
+
+
+
+}
+.message {
+    /* margin-top:20px; */
+    font-family: "Century Gothic";
+    font-size: 14px;
+    color: #f9e307;
+    text-shadow: 1px 1px #8292fe;
+    width:100%;
+    max-height:min-content;
+    /* width: 75%; */
+    /* height:auto; */
+    position: absolute;
+    top:0;
+    /* bottom: 0; */
+    /* background-color: turquoise; */
+    text-align: center;
+}
+
+.cart {
+    color: #fcf803;
+    /* margin-top: 5px; */
+    
+    height:55px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Century Gothic";
+}
+
+.buttons {
+    /* margin-top: 10px; */
+    color: #fcf803;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    text-shadow: -1px 0 #3d3a3c, 0 1px #3d3a3c, 1px 0 #3d3a3c, 0 -1px #3d3a3c;
+    display:flex;
+    justify-content: center;
+
+    
+}
+
+.button {
+    border:none;
+    width:40px;
+    height: 40px;
+    margin-top: -8px;
+    font-size: 30px;
+    font-family: "Century Gothic";
+    color: #f9e307;
+    background-color: transparent;
+    font-weight: bold;
+    /* border: 2px solid #4CAF50; */
+    /* box-shadow: 4px 4px 4px 1px #9d7cbd; */
+
+}
